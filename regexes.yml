@@ -159,6 +159,9 @@ email_client_parsers:
     - regex: '(via ggpht.com GoogleImageProxy)'
       family_replacement: Gmail
       type_replacement: webmail
+    - regex: 'Mozilla\/5\.0 \(Windows NT 10\.0; Win64; x64\) AppleWebKit\/537.36 \(KHTML, like Gecko\) Chrome\/42\.0\.2311\.135 Safari\/537.36 Edge\/12\.246 Mozilla\/5\.0'
+      family_replacement: Gmail
+      type_replacement: webmail
     - regex: '(SeznamEmailProxy)'
       family_replacement: Seznam
       type_replacement: webmail
